@@ -471,3 +471,36 @@ index.css 144줄 -> border-radius: 20px;로 변경
 
 ## UI/Data 수정
 app,jsx 9줄 -> 처음에 나오는 색상 변경
+
+## vecel 링크
+https://color-generator-react-fundamental-p.vercel.app/
+
+## Weekly Review  
+- 새롭게 배운 내용
+1. main.jsx가 DOM을 렌더링 해주는 역할임을 알게 되었다.
+2. SingleColor.jsx 코드를 분석하며 브라우저의 navigator.clipboard API 검사에 대해 알게 되었다.
+3. App.jsx가 데이터 상태를 관리하는 역할임을 알게 되었다.
+
+- 어려웠던 점과 해결 방법
+다른 프로젝트들과 달리 components 폴더가 따로 없어서 조금 헷갈렸다. 파일 하나하나씩을 보며 찾을 수 있었다.
+
+- AI 활용 내용 및 느낀 점
+처음에 프로젝트를 고를 때 사용했다. 소스코드 분석 단계에서 SingleColor.jsx 안에 있는 async/await 부분을 이해하는데 도움을 받았고, 이에 대해 더 잘 이해할 수 있게 되었다.
+
+## Project Information
+
+- 프로젝트 소개:Color Generator->색상 선택시 hex코드를 알려주는 사이트이다.
+- 선택 이유:css 코드를 작성할 때 색상코드를 참고했던 적이 있는데 사이트가 있는 것이 신기해서 선택하게 되었다.
+- 원본 GitHub URL:https://github.com/krorv/Color-Generator--React-Fundamental-Project-9
+- 라이선스:MIT License
+
+
+## Installation
+- 실행화면
+(./실행화면.png)
+- 실행방법
+git clone->프로젝트 폴더로 이동->npm install->npm run dev
+
+
+
+
