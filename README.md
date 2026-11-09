@@ -438,7 +438,7 @@ Thank you! 😊
 
 ---
 
-## Project Structure: 주요 파일 2~3개의 역할	
+## Project Structure: 주요 파일 2~3개의 역할  
 - package.json: 프로젝트의 정보를 담아둠
 - main.jsx: Dom을 사용하여서 HTML요소들을 렌더링함
 - App.jsx: 전체 코드를 관리하고, 데이터를 관리함
@@ -449,16 +449,20 @@ Thank you! 😊
 
 ## Code Analysis: 코드 1개(약 5~15줄)를 선택하여 동작 원리 설명
 - SingleColor.jsx:
- const saveToClipboard = async () => {
-    if (navigator.clipboard) {
-      try {
-        await navigator.clipboard.writeText(`#${hex}`);
+ const saveToClipboard = async () => { 
+    if (navigator.clipboard) { //navigator은 화면 간의 이동을 담당하는 컴포넌트. api 검사를 함
+      try {//try catch 문
+        await navigator.clipboard.writeText(`#${hex}`);// 색상 코드인 hex코드를 전달 받음.
         toast.success('Color copied to clipboard');
       } catch {
-        toast.error('Failed to copy color to clipboard');
+        toast.error('Failed to copy color to clipboard');//예외처리 과정
       }
     } else {
-      toast.error('Clipboard access not available');
+      toast.error('Clipboard access not available');//clipboard를 허용하지 않았을 때 띄울 문구
     }
   };
+## Text 수정
 
+## Style 수정
+
+## UI/Data 수정
