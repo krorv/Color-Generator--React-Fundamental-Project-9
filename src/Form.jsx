@@ -12,7 +12,7 @@ const Form = ({ addColor }) => {
 
   return (
     <section className='container'>
-      <h4>color generator</h4>
+      <h4>색상 생성기</h4>
       <form className='color-form' onSubmit={handleSubmit}>
         {/* type="color" gives a native color picker; value/onChange make it controlled by React state */}
         <input
@@ -28,7 +28,7 @@ const Form = ({ addColor }) => {
           placeholder='#f15025'
         />
         <button className='btn' type='submit' style={{ background: color }}>
-          submit
+          색상 만들기
         </button>
       </form>
     </section>

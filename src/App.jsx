@@ -6,8 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
   // Initial state: default palette from #f15025 with 10% steps (tints + shades). all(10) returns an array of color objects.
-  const [colors, setColors] = useState(new Values('#f15025').all(10));
-
+const [colors, setColors] = useState(new Values('#d5618e').all(10));
   // Lifted state updater: Form calls this with the user's hex. values.js throws on invalid hex (e.g. "red", "#ggg").
   const addColor = (color) => {
     try {

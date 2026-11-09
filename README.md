@@ -462,7 +462,12 @@ Thank you! 😊
     }
   };
 ## Text 수정
+Form.jsx의 15줄 ->text 색상 생성기로 변경
+Form.jsx의 13줄 ->text 색상 만들기로 변경
 
 ## Style 수정
+index.css 17-25줄 -> 메인 색 변경
+index.css 144줄 -> border-radius: 20px;로 변경
 
 ## UI/Data 수정
+app,jsx 9줄 -> 처음에 나오는 색상 변경
